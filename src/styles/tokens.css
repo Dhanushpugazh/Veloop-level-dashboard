@@ -1,0 +1,67 @@
+:root {
+  /* Background (project-wide, required) */
+  --bg: #161827;
+  --surface: #1e2140;
+  --surface-raised: #262b4d;
+  --surface-hover: #2c3158;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+
+  /* Accent palette */
+  --gold: #e3b341;
+  --gold-dim: rgba(227, 179, 65, 0.15);
+  --blue: #6c8eef;
+  --blue-dim: rgba(108, 142, 239, 0.15);
+  --purple: #8b7fd9;
+  --purple-dim: rgba(139, 127, 217, 0.15);
+  --success: #4ade80;
+  --success-dim: rgba(74, 222, 128, 0.15);
+
+  /* Text */
+  --text: #f2f3f8;
+  --text-dim: #8c93b8;
+  --text-faint: #5c6389;
+
+  /* Type */
+  --font-display: "Sora", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-data: "IBM Plex Mono", monospace;
+
+  /* Radius / shadow */
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.35);
+  --shadow-glow-gold: 0 0 40px rgba(227, 179, 65, 0.18);
+  --shadow-glow-blue: 0 0 40px rgba(108, 142, 239, 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  margin: 0;
+}
+
+.data-num {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
