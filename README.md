@@ -180,21 +180,14 @@ Tested at 320px, 768px, 1280px, 1440px, and 1920px+.
 - **Game unavailable:** attempts-exhausted state shows "New challenge coming
   soon."
 
-## 15. Screenshots
+## 15. Live Demo
 
-_Add screenshots here before submission: desktop / tablet / mobile views,
-current level, XP progress, next-level reward, roadmap, game start/play/
-result, earning features, XP activity, level-up celebration, loading, empty,
-and error states._
+https://veloop-dashboard-opal.vercel.app/
 
-## 16. Live Demo
-
-_Add Vercel/Netlify URL here after deployment — verify `/Lvl-Dashboard` route._
-
-## 17. GitHub Repository
+## 16. GitHub Repository
 
 _Add repository URL here._
 
-## 18. Author
+## 17. Author
 
-_Your name here._
+Dhanush Pugazhendhi
