@@ -186,7 +186,7 @@ https://veloop-dashboard-opal.vercel.app/
 
 ## 16. GitHub Repository
 
-_Add repository URL here._
+https://github.com/Dhanushpugazh/Veloop-level-dashboard/
 
 ## 17. Author
 
